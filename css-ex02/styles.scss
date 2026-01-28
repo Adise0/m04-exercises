@@ -1,0 +1,122 @@
+/* Universal Styles */
+
+body {
+  background-image: url("https://img.freepik.com/free-vector/white-abstract-background-design_361591-1245.jpg");
+  background-size: cover;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  text-align: center;
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  span {
+    display: block;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin: 10px 0;
+  }
+
+  a {
+    color: #666666;
+  }
+}
+
+/* Content Container */
+
+.content {
+  height: 500px;
+  margin: 50px auto;
+
+  overflow-y: auto;
+  main {
+    margin: 0 auto;
+    p {
+      color: #333333;
+      font-weight: 100;
+      line-height: 34px;
+      width: 90%;
+      margin-top: 18px;
+    }
+  }
+}
+
+/* Content Header */
+
+header {
+  background-image: url("https://freerangestock.com/sample/125964/grilled-burger-meat-.jpg");
+  background-position: center;
+  background-size: cover;
+
+  height: 480px;
+
+  h1 {
+    padding: 20px;
+    background-color: #b81f00;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 40px;
+    width: 68%;
+    margin: 0 auto;
+  }
+}
+
+/* Content Button */
+
+.button {
+  border-radius: 4px;
+  color: #a72700;
+  display: block;
+  font-weight: 700;
+  width: 200px;
+  padding: 20px;
+  margin: 40px auto;
+  border: 1px solid blue;
+  &:hover {
+    background-color: #aa0505;
+    border: 1px solid #aa0505;
+    color: #fff;
+  }
+}
+
+/* Content Nutrition */
+
+ul {
+  &.nutrition {
+    padding: 20px;
+    li {
+      display: inline-block;
+      background-color: #aa0505;
+      list-style: none;
+      width: 200px;
+      padding: 10px 20px;
+      margin-bottom: 3px;
+    }
+  }
+}
+.nutrition {
+  .category {
+    color: white;
+    font-weight: 100;
+    letter-spacing: 2px;
+    display: block;
+  }
+  .value {
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+}
